@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ohm device
 $(call inherit-product, device/amlogic/ohm/device.mk)
 
 PRODUCT_DEVICE := ohm
-PRODUCT_NAME := omni_ohm
+PRODUCT_NAME := twrp_ohm
 PRODUCT_BRAND := Amlogic
 PRODUCT_MODEL := ohm
 PRODUCT_MANUFACTURER := amlogic

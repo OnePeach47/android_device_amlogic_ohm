@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ohm.mk
+    $(LOCAL_DIR)/twrp_ohm.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ohm-user \
-    omni_ohm-userdebug \
-    omni_ohm-eng
+    twrp_ohm-user \
+    twrp_ohm-userdebug \
+    twrp_ohm-eng
